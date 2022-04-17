@@ -13,4 +13,5 @@ jobs:
         - uses: actions/checkout@v2
         - name: Build Ice
           run: docker build -f ice-helloworld/Dockerfile ice-helloworld/
-
+        - name: Build Ice C++ Client
+          run: docker build -f ice-helloworld-cpp-client/Dockerfile ice-helloworld-cpp-client/
