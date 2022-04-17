@@ -11,5 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Build Ice
-          run: docker image build -f ice-helloworld/Dockerfile ice-helloword/
+          run: docker image build -f ice-helloworld/Dockerfile ice-helloworld/
 
