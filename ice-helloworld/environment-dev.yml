@@ -1,0 +1,8 @@
+name: ice
+channels:
+    - conda-forge
+dependencies:
+    - mock
+    - pytest
+    - pytest-cov
+    - black
