@@ -7,12 +7,12 @@ docker build . -t ice-latest
 
 To run docker interactively and test, run:
 ```
-docker run -it -v --rm ice-latest /bin/bash
+docker run -it --rm ice-latest /bin/bash
 ```
 
 Or use the pre-built image:
 ```
-docker run -it -v --rm mcai4gl2/ice-helloworld:latest /bin/bash
+docker run -it --rm mcai4gl2/ice-helloworld:latest /bin/bash
 ```
 
 Inside the docker image, run:
